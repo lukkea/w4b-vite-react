@@ -11,6 +11,11 @@ export default defineConfig({
     },
     rollupOptions: {
       external: ['react', 'react-dom', 'react/jsx-runtime'],
+      output: {
+        globals: {
+          'react/jsx-runtime': 'jsxRuntime',
+        },
+      },
     },
   },
   plugins: [reactRefresh()],
