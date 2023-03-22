@@ -31,9 +31,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:18.15.5"],\
             ["@types/react", "npm:18.0.28"],\
             ["@types/react-dom", "npm:18.0.11"],\
-            ["@vitejs/plugin-react", "virtual:284811c20a2517f652e79762cd36b5ed6e7dc282d5af4000f3abb485c30930f304fcbbfd7cd0f1b8c4732f48b449cae8ae4940cfc2ef70bcf0c173e5caaddbe2#npm:3.1.0"],\
             ["@vitejs/plugin-react-refresh", "npm:1.3.6"],\
-            ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"],\
+            ["typescript", "patch:typescript@npm%3A5.0.2#~builtin<compat/typescript>::version=5.0.2&hash=85af82"],\
             ["vite", "virtual:284811c20a2517f652e79762cd36b5ed6e7dc282d5af4000f3abb485c30930f304fcbbfd7cd0f1b8c4732f48b449cae8ae4940cfc2ef70bcf0c173e5caaddbe2#npm:4.2.1"]\
           ],\
           "linkType": "SOFT"\
@@ -722,33 +721,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-scheduler-npm-0.16.2-ba3a7d8c68-b6b4dcfeae.zip/node_modules/@types/scheduler/",\
           "packageDependencies": [\
             ["@types/scheduler", "npm:0.16.2"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["@vitejs/plugin-react", [\
-        ["npm:3.1.0", {\
-          "packageLocation": "./.yarn/cache/@vitejs-plugin-react-npm-3.1.0-98ff1f6673-450fac79e6.zip/node_modules/@vitejs/plugin-react/",\
-          "packageDependencies": [\
-            ["@vitejs/plugin-react", "npm:3.1.0"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
-        ["virtual:284811c20a2517f652e79762cd36b5ed6e7dc282d5af4000f3abb485c30930f304fcbbfd7cd0f1b8c4732f48b449cae8ae4940cfc2ef70bcf0c173e5caaddbe2#npm:3.1.0", {\
-          "packageLocation": "./.yarn/__virtual__/@vitejs-plugin-react-virtual-5ca8c08025/0/cache/@vitejs-plugin-react-npm-3.1.0-98ff1f6673-450fac79e6.zip/node_modules/@vitejs/plugin-react/",\
-          "packageDependencies": [\
-            ["@vitejs/plugin-react", "virtual:284811c20a2517f652e79762cd36b5ed6e7dc282d5af4000f3abb485c30930f304fcbbfd7cd0f1b8c4732f48b449cae8ae4940cfc2ef70bcf0c173e5caaddbe2#npm:3.1.0"],\
-            ["@babel/core", "npm:7.21.3"],\
-            ["@babel/plugin-transform-react-jsx-self", "virtual:7c2e86bd71e4578bc49c10815935fa36d076bc9b9165da0a5a92402faacdbb44a3cbc271397c4913bef21a7522896ec0179adcc54cd14f6c35789c0da703f93a#npm:7.21.0"],\
-            ["@babel/plugin-transform-react-jsx-source", "virtual:7c2e86bd71e4578bc49c10815935fa36d076bc9b9165da0a5a92402faacdbb44a3cbc271397c4913bef21a7522896ec0179adcc54cd14f6c35789c0da703f93a#npm:7.19.6"],\
-            ["@types/vite", null],\
-            ["magic-string", "npm:0.27.0"],\
-            ["react-refresh", "npm:0.14.0"],\
-            ["vite", "virtual:284811c20a2517f652e79762cd36b5ed6e7dc282d5af4000f3abb485c30930f304fcbbfd7cd0f1b8c4732f48b449cae8ae4940cfc2ef70bcf0c173e5caaddbe2#npm:4.2.1"]\
-          ],\
-          "packagePeers": [\
-            "@types/vite",\
-            "vite"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1498,16 +1470,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["magic-string", [\
-        ["npm:0.27.0", {\
-          "packageLocation": "./.yarn/cache/magic-string-npm-0.27.0-a60a83c0b4-273faaa50b.zip/node_modules/magic-string/",\
-          "packageDependencies": [\
-            ["magic-string", "npm:0.27.0"],\
-            ["@jridgewell/sourcemap-codec", "npm:1.4.14"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["make-fetch-happen", [\
         ["npm:10.2.1", {\
           "packageLocation": "./.yarn/cache/make-fetch-happen-npm-10.2.1-f1cc7cd2df-2332eb9a8e.zip/node_modules/make-fetch-happen/",\
@@ -1834,13 +1796,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-refresh", "npm:0.10.0"]\
           ],\
           "linkType": "HARD"\
-        }],\
-        ["npm:0.14.0", {\
-          "packageLocation": "./.yarn/cache/react-refresh-npm-0.14.0-78ef5eeb73-dc69fa8c99.zip/node_modules/react-refresh/",\
-          "packageDependencies": [\
-            ["react-refresh", "npm:0.14.0"]\
-          ],\
-          "linkType": "HARD"\
         }]\
       ]],\
       ["readable-stream", [\
@@ -2076,10 +2031,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["typescript", [\
-        ["patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76", {\
-          "packageLocation": "./.yarn/cache/typescript-patch-72dc6f164f-ab417a2f39.zip/node_modules/typescript/",\
+        ["patch:typescript@npm%3A5.0.2#~builtin<compat/typescript>::version=5.0.2&hash=85af82", {\
+          "packageLocation": "./.yarn/cache/typescript-patch-772e75d75e-b63cb742fb.zip/node_modules/typescript/",\
           "packageDependencies": [\
-            ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"]\
+            ["typescript", "patch:typescript@npm%3A5.0.2#~builtin<compat/typescript>::version=5.0.2&hash=85af82"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2190,9 +2145,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:18.15.5"],\
             ["@types/react", "npm:18.0.28"],\
             ["@types/react-dom", "npm:18.0.11"],\
-            ["@vitejs/plugin-react", "virtual:284811c20a2517f652e79762cd36b5ed6e7dc282d5af4000f3abb485c30930f304fcbbfd7cd0f1b8c4732f48b449cae8ae4940cfc2ef70bcf0c173e5caaddbe2#npm:3.1.0"],\
             ["@vitejs/plugin-react-refresh", "npm:1.3.6"],\
-            ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"],\
+            ["typescript", "patch:typescript@npm%3A5.0.2#~builtin<compat/typescript>::version=5.0.2&hash=85af82"],\
             ["vite", "virtual:284811c20a2517f652e79762cd36b5ed6e7dc282d5af4000f3abb485c30930f304fcbbfd7cd0f1b8c4732f48b449cae8ae4940cfc2ef70bcf0c173e5caaddbe2#npm:4.2.1"]\
           ],\
           "linkType": "SOFT"\

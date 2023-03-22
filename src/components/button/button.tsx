@@ -1,6 +1,6 @@
 import React, { MouseEventHandler } from 'react';
 
-import './button.css';
+import s from './Button.module.css';
 
 type ButtonType = {
   text: string;
@@ -10,7 +10,11 @@ type ButtonType = {
 
 const Button = ({ text, type, onClick }: ButtonType) => {
   return (
-    <button className={`button button-${type}`} onClick={onClick} type="button">
+    <button
+      className={`${s.button} ${s[`button-${type}`]}`}
+      onClick={onClick}
+      type="button"
+    >
       {text}
     </button>
   );
