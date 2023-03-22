@@ -1,5 +1,7 @@
 import React, { MouseEventHandler } from 'react';
 
+import './button.css';
+
 type ButtonType = {
   text: string;
   type: string;
@@ -8,7 +10,7 @@ type ButtonType = {
 
 const Button = ({ text, type, onClick }: ButtonType) => {
   return (
-    <button className={`button button-${type}`} onClick={onClick}>
+    <button className={`button button-${type}`} onClick={onClick} type="button">
       {text}
     </button>
   );
