@@ -1,7 +1,7 @@
 {
   "name": "w4b-vite-react",
   "private": false,
-  "version": "0.1.0",
+  "version": "0.3.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -24,12 +24,12 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/lib.umd.ts",
-  "module": "./dist/lib.es.ts",
+  "main": "./dist/w4b-vite-react.umd.cjs",
+  "module": "./dist/w4b-vite-react.js",
   "exports": {
     ".": {
-      "import": "./dist/lib.es.ts",
-      "require": "./dist/lib.umd.ts"
+      "import": "./dist/w4b-vite-react.js",
+      "require": "./dist/w4b-vite-react.umd.cjs"
     }
   }
 }
