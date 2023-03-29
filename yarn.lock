@@ -575,6 +575,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@w4b-framework/w4b-vite-react@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@w4b-framework/w4b-vite-react@workspace:."
+  dependencies:
+    "@types/node": ^18.15.5
+    "@types/react": ^18.0.28
+    "@types/react-dom": ^18.0.11
+    "@vitejs/plugin-react-refresh": ^1.3.6
+    typescript: ^5.0.2
+    vite: ^4.2.0
+  peerDependencies:
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  languageName: unknown
+  linkType: soft
+
 "abbrev@npm:^1.0.0":
   version: 1.1.1
   resolution: "abbrev@npm:1.1.1"
@@ -1869,22 +1885,6 @@ __metadata:
   checksum: 70eb162ffc299017a3c310e3adc95e9661def6b17aafd1f8e5e02e516766060435590dbe3df1e4e95acc3583c728a76e91f07c546221d1e701f1b2b021293f45
   languageName: node
   linkType: hard
-
-"w4b-vite-react@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "w4b-vite-react@workspace:."
-  dependencies:
-    "@types/node": ^18.15.5
-    "@types/react": ^18.0.28
-    "@types/react-dom": ^18.0.11
-    "@vitejs/plugin-react-refresh": ^1.3.6
-    typescript: ^5.0.2
-    vite: ^4.2.0
-  peerDependencies:
-    react: ^18.2.0
-    react-dom: ^18.2.0
-  languageName: unknown
-  linkType: soft
 
 "which@npm:^2.0.2":
   version: 2.0.2

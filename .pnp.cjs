@@ -12,14 +12,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     ],\
     "dependencyTreeRoots": [\
       {\
-        "name": "w4b-vite-react",\
+        "name": "@w4b-framework/w4b-vite-react",\
         "reference": "workspace:."\
       }\
     ],\
     "enableTopLevelFallback": true,\
     "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
     "fallbackExclusionList": [\
-      ["w4b-vite-react", ["workspace:."]]\
+      ["@w4b-framework/w4b-vite-react", ["workspace:."]]\
     ],\
     "fallbackPool": [\
     ],\
@@ -33,7 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:18.0.11"],\
             ["@vitejs/plugin-react-refresh", "npm:1.3.6"],\
             ["typescript", "patch:typescript@npm%3A5.0.2#~builtin<compat/typescript>::version=5.0.2&hash=85af82"],\
-            ["vite", "virtual:284811c20a2517f652e79762cd36b5ed6e7dc282d5af4000f3abb485c30930f304fcbbfd7cd0f1b8c4732f48b449cae8ae4940cfc2ef70bcf0c173e5caaddbe2#npm:4.2.1"]\
+            ["vite", "virtual:aea27f786a9318acfe6cbef7e0c7b2b7d06e377519ddd023e502de509a1959a85a78797fd15483ce5cc7849215f56e5c2663dc1248754defc2eade417b8e2cbc#npm:4.2.1"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -737,6 +737,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-refresh", "npm:0.10.0"]\
           ],\
           "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@w4b-framework/w4b-vite-react", [\
+        ["workspace:.", {\
+          "packageLocation": "./",\
+          "packageDependencies": [\
+            ["@w4b-framework/w4b-vite-react", "workspace:."],\
+            ["@types/node", "npm:18.15.5"],\
+            ["@types/react", "npm:18.0.28"],\
+            ["@types/react-dom", "npm:18.0.11"],\
+            ["@vitejs/plugin-react-refresh", "npm:1.3.6"],\
+            ["typescript", "patch:typescript@npm%3A5.0.2#~builtin<compat/typescript>::version=5.0.2&hash=85af82"],\
+            ["vite", "virtual:aea27f786a9318acfe6cbef7e0c7b2b7d06e377519ddd023e502de509a1959a85a78797fd15483ce5cc7849215f56e5c2663dc1248754defc2eade417b8e2cbc#npm:4.2.1"]\
+          ],\
+          "linkType": "SOFT"\
         }]\
       ]],\
       ["abbrev", [\
@@ -2100,10 +2115,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:284811c20a2517f652e79762cd36b5ed6e7dc282d5af4000f3abb485c30930f304fcbbfd7cd0f1b8c4732f48b449cae8ae4940cfc2ef70bcf0c173e5caaddbe2#npm:4.2.1", {\
-          "packageLocation": "./.yarn/__virtual__/vite-virtual-d7c97b0bfb/0/cache/vite-npm-4.2.1-a0fa6996de-70eb162ffc.zip/node_modules/vite/",\
+        ["virtual:aea27f786a9318acfe6cbef7e0c7b2b7d06e377519ddd023e502de509a1959a85a78797fd15483ce5cc7849215f56e5c2663dc1248754defc2eade417b8e2cbc#npm:4.2.1", {\
+          "packageLocation": "./.yarn/__virtual__/vite-virtual-a36e01cf13/0/cache/vite-npm-4.2.1-a0fa6996de-70eb162ffc.zip/node_modules/vite/",\
           "packageDependencies": [\
-            ["vite", "virtual:284811c20a2517f652e79762cd36b5ed6e7dc282d5af4000f3abb485c30930f304fcbbfd7cd0f1b8c4732f48b449cae8ae4940cfc2ef70bcf0c173e5caaddbe2#npm:4.2.1"],\
+            ["vite", "virtual:aea27f786a9318acfe6cbef7e0c7b2b7d06e377519ddd023e502de509a1959a85a78797fd15483ce5cc7849215f56e5c2663dc1248754defc2eade417b8e2cbc#npm:4.2.1"],\
             ["@types/less", null],\
             ["@types/node", "npm:18.15.5"],\
             ["@types/sass", null],\
@@ -2135,21 +2150,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "terser"\
           ],\
           "linkType": "HARD"\
-        }]\
-      ]],\
-      ["w4b-vite-react", [\
-        ["workspace:.", {\
-          "packageLocation": "./",\
-          "packageDependencies": [\
-            ["w4b-vite-react", "workspace:."],\
-            ["@types/node", "npm:18.15.5"],\
-            ["@types/react", "npm:18.0.28"],\
-            ["@types/react-dom", "npm:18.0.11"],\
-            ["@vitejs/plugin-react-refresh", "npm:1.3.6"],\
-            ["typescript", "patch:typescript@npm%3A5.0.2#~builtin<compat/typescript>::version=5.0.2&hash=85af82"],\
-            ["vite", "virtual:284811c20a2517f652e79762cd36b5ed6e7dc282d5af4000f3abb485c30930f304fcbbfd7cd0f1b8c4732f48b449cae8ae4940cfc2ef70bcf0c173e5caaddbe2#npm:4.2.1"]\
-          ],\
-          "linkType": "SOFT"\
         }]\
       ]],\
       ["which", [\

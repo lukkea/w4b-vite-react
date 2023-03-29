@@ -1,11 +1,12 @@
 {
-  "name": "w4b-vite-react",
-  "version": "0.14.0",
+  "name": "@w4b-framework/w4b-vite-react",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "refreshVSToken": "vsts-npm-auth -config .npmrc"
   },
   "peerDependencies": {
     "react": "^18.2.0",
